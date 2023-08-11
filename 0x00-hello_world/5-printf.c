@@ -9,9 +9,6 @@
  */
 int main(void)
 {
-	printf("In the realm of imagination,\n");
-	printf("Colors dance upon the canvas of dreams,\n");
-	printf("Brushstrokes of code paint ethereal scenes,\n");
-	printf("Where logic and beauty intertwine as it seems.\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
