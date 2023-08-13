@@ -17,7 +17,7 @@ int main(void)
 		}
 		else
 		{
-			putchar(i - 10 + 'a')
+			putchar(i - 10 + 'a');
 		}
 
 	}
