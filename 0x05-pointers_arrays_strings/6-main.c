@@ -1,23 +1,15 @@
 #include "main.h"
 
 /**
- * puts2 - prints one char out of 2 of a string.
- * @str: input string.
- * Return: no return.
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-void puts2(char *str)
+int main(void)
 {
-	int count = 0;
+    char *str;
 
-	while (count >= 0)
-	{
-		if (str[count] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		if (count % 2 == 0)
-			_putchar(str[count]);
-		count++;
-	}
+    str = "0123456789";
+    puts2(str);
+    return (0);
 }
