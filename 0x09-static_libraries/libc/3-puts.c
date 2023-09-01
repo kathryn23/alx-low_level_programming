@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _puts - Escribir un texto
  *
