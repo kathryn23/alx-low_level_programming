@@ -13,31 +13,31 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	int len = 0, i = 0, sum = 0;
+	int size = 0, x = 0, count = 0;
 
 	if (!b)
 		return (0);
 
-	 len = strlen(b) - 1;
+	size = strlen(b) - 1;
 
-	while (b[i] != '\0')
+	while (b[x] != '\0')
 	{
-		if (b[i] == '0' || b[i] == '1')
+		if (b[x] == '0' || b[x] == '1')
 		{
-			if (b[i] == '1')
+			if (b[x] == '1')
 			{
-				sum += (1 * (1 << (len - i)));
+				count += (1 * (1 << (size - x)));
 			}
 			else
 			{
-				sum += 0;
+				count += 0;
 			}
 		}
 		else
 		{
 			return (0);
 		}
-		i++;
+		x++;
 	}
-	return (sum);
+	return (count);
 }
