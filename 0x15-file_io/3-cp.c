@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	while ((bytes_read = read(fd_src, buffer, BUFFER_SIZE)) != '\0')
 	{
 		if (bytes_read == -1)
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+			dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]), exit(98);
 		bytes_write = write(fd_dest, buffer, bytes_read);
 		if (bytes_write == -1)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
