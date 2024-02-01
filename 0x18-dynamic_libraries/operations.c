@@ -1,8 +1,4 @@
-int add(int i, int k);
-int sub(int i, int k);
-int mul(int i, int k);
-int div(int i, int k);
-int mod(int i, int k);
+#include <stdio.h>
 
 /**
 * add - adds two integers
@@ -18,8 +14,8 @@ int add(int i, int k)
 
 /**
 * sub - subtracts two integers
-* @i: first integer to add
-* @k: second integer to add
+* @i: first integer 
+* @k: second integer 
 * Return: the subtract
 */
 
@@ -30,8 +26,8 @@ int sub(int i, int k)
 
 /**
 * mul - multiplies two integers
-* @i: first integer to add
-* @k: second integer to add
+* @i: first integer
+* @k: second integer
 * Return: the multiple
 */
 
@@ -42,8 +38,8 @@ int mul(int i, int k)
 
 /**
 * div - divideds two integers
-* @i: first integer to add
-* @k: second integer to add
+* @i: first integer
+* @k: second integer
 * Return: the dividend integer
 */
 
@@ -54,8 +50,8 @@ int div(int i, int k)
 
 /**
   mod - finds the modulus of two integers
-  @i: first integer to add
-  @k: second integer to add
+  @i: first integer
+  @k: second integer
   Return: the modulus
 */
 
